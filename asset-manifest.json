@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/project/static/css/main.9a20fe46.chunk.css",
+    "main.js": "/project/static/js/main.4f54634c.chunk.js",
+    "main.js.map": "/project/static/js/main.4f54634c.chunk.js.map",
+    "runtime-main.js": "/project/static/js/runtime-main.102d06f0.js",
+    "runtime-main.js.map": "/project/static/js/runtime-main.102d06f0.js.map",
+    "static/js/2.6c093009.chunk.js": "/project/static/js/2.6c093009.chunk.js",
+    "static/js/2.6c093009.chunk.js.map": "/project/static/js/2.6c093009.chunk.js.map",
+    "index.html": "/project/index.html",
+    "precache-manifest.e5ae02b02d626963c9f306c48b14004e.js": "/project/precache-manifest.e5ae02b02d626963c9f306c48b14004e.js",
+    "service-worker.js": "/project/service-worker.js",
+    "static/css/main.9a20fe46.chunk.css.map": "/project/static/css/main.9a20fe46.chunk.css.map",
+    "static/js/2.6c093009.chunk.js.LICENSE.txt": "/project/static/js/2.6c093009.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/project/static/media/you-got-this-lighted-signage-2740954.0a2b5fd3.jpg",
+    "static/media/profile.jpg": "/project/static/media/profile.8e409e42.jpg",
+    "static/media/var1.jpg": "/project/static/media/var1.77bede32.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.102d06f0.js",
+    "static/js/2.6c093009.chunk.js",
+    "static/css/main.9a20fe46.chunk.css",
+    "static/js/main.4f54634c.chunk.js"
+  ]
+}
