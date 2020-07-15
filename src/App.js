@@ -7,7 +7,8 @@ import Certificates from './Certificates'
 import skills from './skills'
 import pro1 from './profile.jpg'
 import data from './Data.json'
-import {createSvgIcon} from "react-social-login-buttons";
+
+
 import { FacebookLoginButton } from "react-social-login-buttons";
 import { InstagramLoginButton } from "react-social-login-buttons";
 import { LinkedInLoginButton } from "react-social-login-buttons";
@@ -25,9 +26,9 @@ function App() {
   <Switch>
  
   <Route  path="/" exact component={Home}></Route>
-      <Route path="/details" component={Details}></Route>
-      <Route  path="/education" component={Education}></Route>
-    <Route  path="/certificates" component={Certificates}></Route>
+      <Route path="/Details" component={Details}></Route>
+      <Route  path="/Education" component={Education}></Route>
+    <Route  path="/Certificates" component={Certificates}></Route>
     <Route  path="/skills" component={skills}></Route>
   </Switch>
 
@@ -60,13 +61,13 @@ const Home=()=>(
                        
                        <h2>Connect:</h2>
              <div className='lin'>
-                 <a target="_blank" href="https://www.facebook.com/">   <FacebookLoginButton className="fb" style={{width:"50px"}} >
+                 <a rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/">   <FacebookLoginButton className="fb" style={{width:"50px"}} >
                         <span></span>
                </FacebookLoginButton>  </a>
-             <a target="_blank"  href="https://instagram.com/">    <InstagramLoginButton className="fb" style={{width:"50px"}} ><span></span></InstagramLoginButton></a>
-             <a target="_blank"  href="https://github.com/"> <GithubLoginButton className="fb" style={{width:"50px"}}  ><span></span>  </GithubLoginButton></a>
-            <a target="_blank"  href="https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fprofile%2Fview&trk=login_reg_redirect">  <LinkedInLoginButton className="fb" style={{width:"50px"}}  ><span></span> </LinkedInLoginButton ></a>
-              <a target="_blank"  href=' https://twitter.com/'> <TwitterLoginButton className="fb" style={{width:"50px"}} ><span></span></TwitterLoginButton></a>
+             <a target="_blank" rel="noopener noreferrer" href="https://instagram.com/">    <InstagramLoginButton className="fb" style={{width:"50px"}} ><span></span></InstagramLoginButton></a>
+             <a target="_blank" rel="noopener noreferrer"  href="https://github.com/"> <GithubLoginButton className="fb" style={{width:"50px"}}  ><span></span>  </GithubLoginButton></a>
+            <a target="_blank" rel="noopener noreferrer"  href="https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fprofile%2Fview&trk=login_reg_redirect">  <LinkedInLoginButton className="fb" style={{width:"50px"}}  ><span></span> </LinkedInLoginButton ></a>
+              <a target="_blank" rel="noopener noreferrer"  href=' https://twitter.com/'> <TwitterLoginButton className="fb" style={{width:"50px"}} ><span></span></TwitterLoginButton></a>
 
                     </div>
 
